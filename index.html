@@ -21,6 +21,33 @@
             <!-- <ul class="d-flex justify-content-between" id="palette">
                 <li style="background-color: #03071eff"></li>
             </ul>  -->
+            <div>
+                <form id="login">
+                    <div class="mb-3">
+                        <label for="name">Inserisci i tuo nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Inserisci il tuo nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="age">Inserisci la fascia età</label>
+                        <select name="age" id="age" class="form-select">
+                            <option value="">Adulto</option>
+                            <option value="18">Junior</option>
+                            <option value="65">Senior</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="km">Inserisci i tuo nome</label>
+                        <input type="number" class="form-control" id="km" placeholder="Inserisci i km">
+                    </div>
+
+                    <input type="submit" value="Invia" class="btn btn-success">
+                    <input type="reset" value="Cancellare" class="btn btn-info">
+                </form>
+
+                <p id="result" class="p-4 border m-4 d-none">
+
+                </p>
+            </div>
         </section>
     </main>
 
